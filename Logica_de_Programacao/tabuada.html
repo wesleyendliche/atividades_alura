@@ -1,0 +1,26 @@
+<meta charset="utf-8">
+
+<script>
+	
+	function pulaLinha() {
+		document.write("<br><br>");
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+		pulaLinha();
+	}
+
+	//for(variavel; condição; incremento)
+	for(var multiplicador = 1; multiplicador <= 10; multiplicador++) {
+		mostra(7 * multiplicador);
+	}
+
+	//incrementar a partir do 0, usar < e não <=
+	for( var i = 0; i < 10; i++ ) {
+    	mostra( "O resultado é " + (2 * i) );
+	}
+
+	mostra("FIM");
+
+</script>

@@ -1,0 +1,20 @@
+<meta charset="UTF-8">
+<script>
+
+    function pulaLinha() {
+        document.write("<br><br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var count = 2;
+
+    while(count <= 100) {
+    	mostra("Os números pares são " + count);
+    	count = count + 2;
+    }
+
+</script>
